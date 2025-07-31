@@ -15,17 +15,14 @@
 
 ## Installation
 
-Clone or download this repository and add it to your Emacs `load-path`.
+1. Clone or download this repository.
 
----
+2. Add the following to your Emacs config (`init.el`, `config.el`, or equivalent):
 
-## Usage
-
-Add the following to your Emacs config (`init.el`, `config.el`, or equivalent):
-
-```elisp
+``` elisp
 ;; hexmacs
 (use-package hexmacs
   :load-path "/my/cloned/path/hexmacs"
   :config
   (hexmacs-mode 1))
+```
